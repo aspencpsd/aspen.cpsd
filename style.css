@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(10, 88, 133);
+  background-image: url("aspen_login.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.screen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formx {
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.formy {
+  height: 58vh;
+}
+
+p {
+  font-size: 2vh;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 5vh 0 0 0;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 3.2vh;
+  padding: 1vh;
+  margin: 0.5vh 0;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input[type=text]:selected {
+  width: 100%;
+  height: 3.2vh;
+  padding: 1vh;
+  margin: 0.5vh 0;
+  display: inline-block;
+  border: 1vh solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 100%;
+  height: 3.2vh;
+  padding: 1vh;
+  margin: 0.5vh 0;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input[type=password]:selected {
+  width: 100%;
+  height: 3.2vh;
+  padding: 1vh;
+  margin: 0.5vh 0;
+  display: inline-block;
+  border: 1vh solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: gray;
+  color: white;
+  padding: 1vh 1vh;
+  margin: 1vh 0;
+  border: 2vh;
+  border-color: white;
+  cursor: pointer;
+  font-size: 1.3vh;
+}
+
